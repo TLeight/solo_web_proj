@@ -12,7 +12,7 @@
         <nav>
             <ul>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="templates/about.html">About Me</a></li>
+                <li><a href="templates/about.php">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
