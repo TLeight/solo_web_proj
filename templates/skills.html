@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - My Coding Skills</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .skill-category {
+            margin-bottom: 2em;
+        }
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+        }
+        .skill img {
+            width: 40px;
+            height: 40px;
+            margin-right: 1em;
+        }
+        .progress-bar {
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+            height: 20px;
+            margin-left: 1em;
+        }
+        .progress-bar div {
+            height: 100%;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Coding Skills</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="templates/about.html">About Me</a></li>
+                <li><a href="templates/skills.html">Skills</a></li>
+                <li><a href="templates/projects.html">Projects</a></li>
+                <li><a href="templates/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-category">
+                <h3>Front-End Development</h3>
+                <div class="skill">
+                    <img src="icons/html5.png" alt="HTML5 Logo">
+                    <span>HTML5</span>
+                    <div class="progress-bar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="icons/css3.png" alt="CSS3 Logo">
+                    <span>CSS3</span>
+                    <div class="progress-bar">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="icons/javascript.png" alt="JavaScript Logo">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="icons/react.png" alt="React Logo">
+                    <span>React</span>
+                    <div class="progress-bar">
+                        <div style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Back-End Development</h3>
+                <div class="skill">
+                    <img src="icons/nodejs.png" alt="Node.js Logo">
+                    <span>Node.js</span>
+                    <div class="progress-bar">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="icons/php.png" alt="PHP Logo">
+                    <span>PHP</span>
+                    <div class="progress-bar">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <!-- Add more skills -->
+            </div>
+            <!-- Add more categories as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler Leight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
