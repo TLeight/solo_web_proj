@@ -39,8 +39,15 @@
     </section>
     <section id="About">
         <h2>About Me</h2>
-        <p>Hello, my name is Tyler Leight, and I am a full stack developer. I am capable of building Front-End, 
+        <p>Hello, my name is Tyler Leight, and I am a full stack developer. I specialize in building Front-End, 
             Back-End, Server-Side Databases, and performing in-person IT administration.</p>
+        <p>I have a strong passion for technology and love to create efficient, scalable, and user-friendly applications. 
+            My journey in programming started during my college years, where I developed a solid foundation in various 
+            programming languages and technologies.</p>
+        <p>In my spare time, I enjoy exploring new technologies, contributing to open-source projects, and participating 
+            in coding challenges. I believe in continuous learning and strive to stay updated with the latest industry trends.</p>
+        <p>If you'd like to learn more about my work or get in touch, feel free to visit the <a href="index.html#contact">Contact</a> 
+            section.</p>
     </section>
     <section id="Projects">
         <h2>Projects</h2>
@@ -54,11 +61,19 @@
     </section>
     <section id="Contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:fireraider98@gmail.com">fireraider98@gmail.com</a></p>
+        <p>Email: <span id="contact-email">Email address protected by JavaScript. Please enable JavaScript to view.</span></p>
     </section>
     <footer>
         <p>&copy; 2024 Tyler Leight. All rights reserved.</p>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var user = "fireraider98";
+            var domain = "gmail.com";
+            var element = document.getElementById("contact-email");
+            element.textContent = user + "@" + domain;
+        });
+    </script>
 </body>
 </html>
