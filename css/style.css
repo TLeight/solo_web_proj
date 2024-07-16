@@ -55,3 +55,51 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+/* Media Queries for responsiveness */
+
+/* For tablets and mobile phones */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center the items */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        padding: 5px;
+    }
+
+    main {
+        padding: 5px;
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
